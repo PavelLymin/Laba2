@@ -1,0 +1,10 @@
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\bin\Debug\Factory.dll
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\bin\Debug\Factory.pdb
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\bin\Debug\Laboratornaya2.exe
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\bin\Debug\Laboratornaya2.pdb
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\bin\Debug\Laboratornaya2.exe.config
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\obj\Debug\Factory.csproj.AssemblyReference.cache
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\obj\Debug\Factory.csproj.Up2Date
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\obj\Debug\Factory.dll
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Factory\obj\Debug\Factory.pdb
