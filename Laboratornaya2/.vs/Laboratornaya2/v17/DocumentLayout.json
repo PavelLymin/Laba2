@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{762130E6-3145-4590-9FFD-2248318E3314}|Laboratornaya2\\Laboratornaya2.csproj|solutionrelative:laboratornaya2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3E5E0971-EDED-460B-96FB-72A3997E30EE}|Factory\\Factory.csproj|c:\\users\\\u043F\u0430\u0432\u0435\u043B\\desktop\\\u043F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\laboratornaya2\\factory\\myfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E5E0971-EDED-460B-96FB-72A3997E30EE}|Factory\\Factory.csproj|solutionrelative:factory\\myfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{762130E6-3145-4590-9FFD-2248318E3314}|Laboratornaya2\\Laboratornaya2.csproj|C:\\Users\\\u041F\u0430\u0432\u0435\u043B\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Laboratornaya2\\laboratornaya2\\privateresidentbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{762130E6-3145-4590-9FFD-2248318E3314}|Laboratornaya2\\Laboratornaya2.csproj|solutionrelative:laboratornaya2\\privateresidentbuilding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0432\u0435\u043B\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Laboratornaya2\\Factory\\MyFactory.cs",
+              "RelativeDocumentMoniker": "Factory\\MyFactory.cs",
+              "ToolTip": "C:\\Users\\\u041F\u0430\u0432\u0435\u043B\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Laboratornaya2\\Factory\\MyFactory.cs",
+              "RelativeToolTip": "Factory\\MyFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:02:10.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PrivateResidentBuilding.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0432\u0435\u043B\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Laboratornaya2\\Laboratornaya2\\PrivateResidentBuilding.cs",
               "RelativeDocumentMoniker": "Laboratornaya2\\PrivateResidentBuilding.cs",
@@ -46,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApartmentBuilding.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0432\u0435\u043B\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Laboratornaya2\\Laboratornaya2\\ApartmentBuilding.cs",
               "RelativeDocumentMoniker": "Laboratornaya2\\ApartmentBuilding.cs",
@@ -58,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CountryHouse.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0432\u0435\u043B\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Laboratornaya2\\Laboratornaya2\\CountryHouse.cs",
               "RelativeDocumentMoniker": "Laboratornaya2\\CountryHouse.cs",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Realty.cs",
               "DocumentMoniker": "C:\\Users\\\u041F\u0430\u0432\u0435\u043B\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Laboratornaya2\\Laboratornaya2\\Realty.cs",
               "RelativeDocumentMoniker": "Laboratornaya2\\Realty.cs",
@@ -88,7 +105,7 @@
               "RelativeDocumentMoniker": "Laboratornaya2\\Program.cs",
               "ToolTip": "C:\\Users\\\u041F\u0430\u0432\u0435\u043B\\Desktop\\\u041F\u043E\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u043E\u043D\u043D\u044B\u0445 \u0441\u0438\u0441\u0442\u0435\u043C\\Laboratornaya2\\Laboratornaya2\\Program.cs",
               "RelativeToolTip": "Laboratornaya2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T13:40:24.656Z",
               "EditorCaption": ""
