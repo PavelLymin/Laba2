@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
-using Laboratornaya2;
 using System.IO;
+using System.Linq;
 
 
 namespace Factory
@@ -48,17 +48,11 @@ namespace Factory
 
         public static bool ChechQuoteIndex(string text)
         {
-
             int firstQuoteIndex = text.IndexOf('"');
             int lastQuoteIndex = text.LastIndexOf('"');
-            if (firstQuoteIndex != -1 || lastQuoteIndex != -1)
-                return false;
-            return true;
-        }
-
-        public int Sum(int x, int y)
-        {
-            return x + y;
+            if ((firstQuoteIndex != -1 || lastQuoteIndex != -1) && (lastQuoteIndex - firstQuoteIndex) > 1)
+                return true;
+            return false;
         }
 
         public static bool CheckType(string text)
@@ -68,54 +62,55 @@ namespace Factory
             return false;
         }
 
-
-        public static Realty CreatePrivateResidentBuilding(string text)
+        public static PrivateResidentBuilding CreatePrivateResidentBuilding(string text)
         {
-            if (ChechQuoteIndex(text))
+            if (!ChechQuoteIndex(text))
                 throw new Exception("Строка не содержит имени");
 
-            int firstQuoteIndex = text.IndexOf('"');
-            int lastQuoteIndex = text.LastIndexOf('"');
 
-            string name = text.Substring(firstQuoteIndex + 1, lastQuoteIndex - firstQuoteIndex - 1).Trim();
-            string[] otherPart = text.Substring(lastQuoteIndex + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            string name = text.Substring(text.IndexOf('"') + 1, text.LastIndexOf('"') - text.IndexOf('"') - 1).Trim();
+            string[] otherPart = text.Substring(text.LastIndexOf('"') + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+
+            if (otherPart.Length < 2)
+                throw new Exception("Недостаточно данных для создания PrivateResidentBuilding");
 
             return new PrivateResidentBuilding(name, parseDate(otherPart[0]), parseInt(otherPart[1]));
-
         }
 
         public static Realty CreateCountryHouse(string text)
         {
-            if (ChechQuoteIndex(text))
+            if (!ChechQuoteIndex(text))
                 throw new Exception("Строка не содержит имени");
 
-            int firstQuoteIndex = text.IndexOf('"');
-            int lastQuoteIndex = text.LastIndexOf('"');
+            string name = text.Substring(text.IndexOf('"') + 1, text.LastIndexOf('"') - text.IndexOf('"') - 1).Trim();
+            string[] otherPart = text.Substring(text.LastIndexOf('"') + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-            string name = text.Substring(firstQuoteIndex + 1, lastQuoteIndex - firstQuoteIndex - 1).Trim();
-            string[] otherPart = text.Substring(lastQuoteIndex + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (otherPart.Length < 3)
+                throw new Exception("Недостаточно данных для создания CountryHouse");
 
             return new CountryHouse(name, parseDate(otherPart[0]), parseInt(otherPart[1]), parseDouble(otherPart[2]));
         }
 
         public static Realty CreateApartmentBuilding(string text)
         {
-            if (ChechQuoteIndex(text))
+            if (!ChechQuoteIndex(text))
                 throw new Exception("Строка не содержит имени");
 
-            int firstQuoteIndex = text.IndexOf('"');
-            int lastQuoteIndex = text.LastIndexOf('"');
+            string name = text.Substring(text.IndexOf('"') + 1, text.LastIndexOf('"') - text.IndexOf('"') - 1).Trim();
+            string[] otherPart = text.Substring(text.LastIndexOf('"') + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
-            string name = text.Substring(firstQuoteIndex + 1, lastQuoteIndex - firstQuoteIndex - 1).Trim();
-            string[] otherPart = text.Substring(lastQuoteIndex + 1).Trim().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            if (otherPart.Length < 3)
+                throw new Exception("Недостаточно данных для создания ApartmentBuilding");
 
             return new ApartmentBuilding(name, parseDate(otherPart[0]), parseInt(otherPart[1]), parseInt(otherPart[2]));
         }
 
-
         public static Realty createRealty(string text)
         {
-            string type = text.Substring(0, text.IndexOf(' '));
+            string type = text.Split(' ').FirstOrDefault();
+            if (!CheckType(type))
+                throw new Exception("Такого типа нет!");
+
             switch (type)
             {
                 case "ЧастныйЖилДом":

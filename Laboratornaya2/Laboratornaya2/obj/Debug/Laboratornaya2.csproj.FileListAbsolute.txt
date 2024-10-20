@@ -1,10 +1,10 @@
 C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\bin\Debug\Laboratornaya2.exe.config
 C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\bin\Debug\Laboratornaya2.exe
 C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\bin\Debug\Laboratornaya2.pdb
-C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\obj\Debug\Laboratornaya2.csproj.AssemblyReference.cache
-C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\obj\Debug\Laboratornaya2.csproj.CoreCompileInputs.cache
-C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\obj\Debug\Laboratornaya2.exe
-C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\obj\Debug\Laboratornaya2.pdb
 C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\bin\Debug\Factory.dll
 C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\bin\Debug\Factory.pdb
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\obj\Debug\Laboratornaya2.csproj.AssemblyReference.cache
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\obj\Debug\Laboratornaya2.csproj.CoreCompileInputs.cache
 C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\obj\Debug\Laborato.747E3A0E.Up2Date
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\obj\Debug\Laboratornaya2.exe
+C:\Users\Павел\Desktop\Построение информационных систем\Laboratornaya2\Laboratornaya2\obj\Debug\Laboratornaya2.pdb
